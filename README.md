@@ -1,4 +1,7 @@
-# Led-control-using-Arduino
+#### Name : Kanmani U
+#### Reg No : 212221040070
+
+# EXP-01 Led-control-using-Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -59,8 +62,42 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
+![circuit diagram](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/d9d7c968-8315-4c10-81a4-eb5ad5914044)
+
+
 ## PROGRAM
+```
+const int ledPin=13;
+const int buttonPin=2;
+
+int buttonState=0;
+
+void setup() {
+  pinMode(ledPin,OUTPUT);
+  pinMode(buttonPin,INPUT);
+}
+
+void loop() {
+  buttonState=digitalRead(buttonPin);
+  if(buttonState==HIGH)
+  {
+    digitalWrite(ledPin,HIGH);
+  }
+  else
+  {
+    digitalWrite(ledPin,LOW);
+  }
+}
+```
 
 ## OUTPUT
 
+## OFF
+![off](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/d8ee804e-74a3-4fab-bebc-a56e9233a375)
+
+## ON
+![on](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/452d7a30-298b-482f-8274-3eca850ee61a)
+
+
 ## RESULT
+Thus the design and implement a system for LED control using an Arduino microcontroller and a push button is verified successfully.
