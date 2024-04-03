@@ -62,7 +62,8 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
-![circuit diagram](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/d9d7c968-8315-4c10-81a4-eb5ad5914044)
+![circuit diagram 1](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/3770cb46-9452-4279-b37f-f360518a4a3b)
+
 
 
 ## PROGRAM
@@ -93,10 +94,12 @@ void loop() {
 ## OUTPUT
 
 ## OFF
-![off](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/d8ee804e-74a3-4fab-bebc-a56e9233a375)
+![off 1](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/1cc54a41-cc09-4b59-aa2a-2290d8b8cc4a)
+
 
 ## ON
-![on](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/452d7a30-298b-482f-8274-3eca850ee61a)
+![on 1](https://github.com/kanmanikannu/Led-control-using-Arduino/assets/114866367/960c72e4-a91a-45eb-8a7e-c01f6c7bed07)
+
 
 
 ## RESULT
